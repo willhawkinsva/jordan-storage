@@ -92,19 +92,19 @@ a:hover {
   padding: 15px 30px;
   border-style: solid;
   border-width: 2px;
-  border-color: #3c6578;
+  border-color: #FFA500;
   border-radius: 5px;
-  background-color: rgba(60, 101, 120, 0);
+  background-color: #FFA500;
   -webkit-transition: all 350ms ease;
   transition: all 350ms ease;
   font-family: Poppins, sans-serif;
-  color: #3c6578;
+  color: white;
   font-weight: 500;
 }
 
 .button:hover {
-  background-color: #3c6578;
-  color: #fff;
+  background-color: rgba(60, 101, 120, 0);
+  color: #FFA500;
 }
 
 .button.ghost-button {
@@ -562,8 +562,8 @@ a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(60, 101, 120, 0.5)), to(rgba(60, 101, 120, 0.5))), url('../images/IMG_4872.jpg');
-  background-image: linear-gradient(180deg, rgba(60, 101, 120, 0.5), rgba(60, 101, 120, 0.5)), src('images/IMG_4872.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(60, 101, 120, 0.5)), to(rgba(60, 101, 120, 0.5))), url('../images/fifth.jpg');
+  background-image: linear-gradient(180deg, rgba(60, 101, 120, 0.5), rgba(60, 101, 120, 0.5)), src('images/fifth.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
